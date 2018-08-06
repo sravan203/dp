@@ -1,0 +1,3 @@
+SQL> create table LoanDetails(loanId number(5) primary key,custName varchar2(15),custAddrs varchar2(15),branch varchar2(15),principleAmt number(10,2),intrAmt number(10,2));
+
+SQL> create sequence LoanId_seq start with 1 increment by 1;
