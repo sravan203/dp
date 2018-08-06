@@ -1,0 +1,9 @@
+SQL> create table HREMP(empNo number(5) primary key,empName varchar2(20),empAddrs varchar2(20),empDesg varchar2(10),deptNo number(6));
+
+Table created.
+
+SQL> create table FinanceEMP(empNo number(5) primary key,empName varchar2(20),empAddrs varchar2(20),salary number(7,2),deptNo number(5));
+
+Table created.
+
+SQL> create sequence ENO_SEQ start with 1 increment by 1;
