@@ -12,6 +12,7 @@ public class CloningSingletonTest {
 	   pu2=(PrinterUtil)pu1.clone();
 	   System.out.println(pu1.hashCode()+"   "+pu2.hashCode());
 	   System.out.println("pu1==pu2?"+(pu1==pu2));
+	   System.out.println("hlo");
 	   }
 	   catch(CloneNotSupportedException cnse){
 		   cnse.printStackTrace();
